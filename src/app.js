@@ -9,6 +9,7 @@ const server = require("http").createServer(app);
 
 
  const usersRoutes = require('./routes/users/index')
+ const taskRoutes = require('./routes/tasks/index')
 
 
 
@@ -18,6 +19,7 @@ applyMiddleware(app);
 
 // use routes 
 app.use(usersRoutes)
+app.use(taskRoutes)
 
 
 

@@ -12,17 +12,7 @@ const UsersSchema = new Schema({
     image : {
         type : String,
     },
-    role : {
-        type : String,
-        required: true
-    },
-    address : {
-        type : String,
-    },
-    phone : {
-        type : String,
-    },
-    total_delivered : {
+    profession : {
         type : String,
     }
 })
